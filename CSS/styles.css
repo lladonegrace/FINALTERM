@@ -18,7 +18,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 10 px 10px 10px rgba(0, 0, 0, 0.1); /* Shadow with horizontal offset of 0px, vertical offset of 4px, blur radius of 8px, and color with opacity */
 }
+
 
 nav {
     flex-grow: 1; /* Take up available space */
@@ -124,6 +126,5 @@ footer a {
 
 .background img:hover {
     filter: grayscale(100%); /* Convert the image to grayscale on hover */
+      transform: scale(1.1); 
 }
-
-
