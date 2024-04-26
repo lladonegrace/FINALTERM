@@ -99,6 +99,7 @@ footer a {
 
 .background img:hover {
     filter: grayscale(100%); /* Convert the image to grayscale on hover */
+    transform: scale(1.1); 
 }
 
 
