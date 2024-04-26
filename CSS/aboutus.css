@@ -98,7 +98,51 @@ section {
     text-align: justify; /* Justify text within paragraphs */
   }
   
- 
+  /* Editorial board styles */
+.Editorialboard {
+   position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+    background: linear-gradient(to bottom, #549b54, #3b6b3b);/* Define your gradient colors here */
+    padding-bottom: 40px; /* Add padding to the bottom */
+}
+
+.Editorialboard h1 {
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+    
+}
+
+.Editorialboard img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 485px;
+    border-radius: 50%; /* Make the images circular */
+    margin: 10px; /* Add space around the images */
+}
+
+.Editorialboard h3,
+.Editorialboard p {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Optional: Style individual roles differently */
+.Editorialboard p {
+    font-style: italic;
+}
+
+/* Optional: Add hover effect to team member images */
+.Editorialboard img:hover {
+    transform: scale(1.1); /* Scale up the image on hover */
+}
+
 /* Footer styles */
 footer {
     background-color: #3b6b3b; /* Dark green footer background */
@@ -120,4 +164,3 @@ footer a {
     filter: grayscale(100%); /* Convert the image to grayscale on hover */
     transform: scale(1.1); 
 }
-
