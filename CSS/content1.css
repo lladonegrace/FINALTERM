@@ -10,7 +10,6 @@ body {
   /* HEADER */
   header {
     background-color: #223a22; 
-    padding: 20px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1); 
   }
   
@@ -23,26 +22,48 @@ body {
     height: 80px;
   }
   
-  .btn-outline-white {
-    color: #fff;
-    border-color: #fff;
-  }
+ 
+
   
-  section {
-    width: 80%;
-    margin: 40px auto;
-    padding: 30px;
-   
-    text-align: justify; 
-  }
+/* SEARCH BAR */
+
+.form-inline {
+  margin-right: 70px;
+}
+
+.form-control {
+  height: 30px;
+}
+
+
+.btn img {
+margin-bottom: 13px;
+  width: 20px;
+  height: 20px;
+}
+
+
+.btn-outline-white {
+  color: #fff;
+  border-color: #fff;
+  height: 30px;
+}
+
+
   
-  section h1, section h2 {
-    margin-bottom: 20px; 
-  }
-  
-  section p {
-    margin-bottom: 20px; 
-  }
+section {
+  width: 80%;
+  padding: 100px;
+  text-align: justify; /* Justify text within section */
+}
+
+section h1, section h2 {
+  margin-bottom: 20px; /* Add spacing below headings */
+}
+
+section p {
+  margin-bottom: 20px; /* Add spacing between paragraphs */
+}
   
   .pages {
     background-color: #f9f9f9;
