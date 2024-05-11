@@ -2,10 +2,9 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f9fa; /* light gray background */
+    background-color: #f8f9fa; 
   }
   
-
   /* HEADER */
  
   header {
@@ -33,7 +32,6 @@ body {
 
 
 /* SECTION */
-
 section {
   width: 80%;
   margin: 40px auto;
@@ -56,34 +54,9 @@ section p {
     text-align: center;
     margin-bottom: 20px;
     font-size: 50px;
-    color: #333; /* Adjust the color as needed */
+    color: #333; 
   }
 
-  .founder-section {
-    background: linear-gradient(45deg, #52581c, #1f8b1b, #007749, #596d11);
-    background-size: 400% 400%;
-    position: relative;
-    overflow: hidden;
-    animation: gradient 15s ease infinite;
-    margin-bottom:20px;
-    padding: 20px;
-  }
-  
-  @keyframes gradient {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
-  .founder-section h1 {
-    color: #fff;
-
-  }
 
 
   .Editorialboard {
@@ -94,16 +67,43 @@ section p {
   
   .Editorialboard div {
     width: 200px;
-    padding: 15px;
-    border: 1px solid #ccc;
+    padding: 20px;
+    border: 3px solid #395a3783;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     text-align: center;
     margin: 10px;
-  }
+      background: linear-gradient(45deg, #756a2a, #6d8b1b, #6fb96c, #596d11);
+      background-size: 400% 400%;
+      position: relative;
+      overflow: hidden;
+      animation: gradient 15s ease infinite;
+      margin-bottom:20px;
+     
+    }
+    
+    @keyframes gradient {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+    .founder-section h1 {
+      color: #005f0d;
+  
+    }
+  
   
   .Editorialboard img {
     border-radius: 50%;
     margin-bottom: 10px;
+    border: 2px solid #ffffff;
+
   }
   
  
@@ -117,14 +117,13 @@ section p {
     color: #fff;
   }
   
-
+  
   .Editorialboard img:hover {
-    transform: scale(1.1); /* Scale up the image on hover */
+    transform: scale(1.1); 
   }
   
 
 /* FOOTER */
-
 footer {
     background-color: #223a22; 
     color: #ffffff; 
@@ -141,7 +140,7 @@ footer {
   
   footer img {
     width: 30px; 
-    margin: 0 5px; 
+    margin: 0 5px;
     transition: filter 0.3s ease; 
   }
   
