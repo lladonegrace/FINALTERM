@@ -1,104 +1,174 @@
-/* Reset default margin and padding */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; /* Include padding and border in element's total width and height */
-}
+/* styles.css */
 
-/* Body styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f9f0; /* Light green background */
-}
-
-/* Header styles */
-header {
-    background-color: #3b6b3b; /* Dark green header background */
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-
-nav ul {
-    list-style-type: none;
-    display: flex; /* Change to flex to align items */
-   position: absolute;
-   right:614px;
-   top:58px ;
-}
-
-nav ul li {
-    margin-right: 50px;
-}
-
-nav ul li a {
-    color: #ffffff; /* White text color for links */
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-/* Search input styles */
-input[type="search"] {
-    padding: 5px;
-    border: none;
-    position: relative;
-    right: -4px;
-    top: -5px;
-    border-radius: 5px;
-    
- 
-}
-
-button {
-    margin-right: 30px;
-    margin-top: 3px;
-    width: 50px;
-    height: 30px;
-    padding: 5px 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: #a3d6a3; /* Light green button */
-    cursor: pointer;
-    transition: background-color 0.3s ease; /* Smooth transition for the background color */
-    
-}
-
-button:hover {
-    background-color: #7bbf7b; /* Darker green on hover */
-}
-
-
-button img {
-    width: 20px;
-    height: 20px;
-}
-/* Content styles */
-
- 
-/* Footer styles */
-footer {
-    background-color: #3b6b3b; /* Dark green footer background */
-    padding: 20px;
-    color: #ffffff; /* White text color for footer */
-    text-align: center;
+    background-color: #f8f9fa; 
+    line-height: 1.6; 
+  }
   
-}
+  /* HEADER */
+  header {
+    background-color: #223a22; 
+    padding: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .navbar li {
+    margin-left: 50px;
+  }
+  
+  .navbar img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .btn-outline-white {
+    color: #fff;
+    border-color: #fff;
+  }
+  
+  section {
+    width: 80%;
+    margin: 40px auto;
+    padding: 30px;
+   
+    text-align: justify;
+  }
+  
+  section h1, section h2 {
+    margin-bottom: 20px; 
+  }
+  
+  section p {
+    margin-bottom: 20px; /
+  }
+  
+  .video-container {
+    position: relative;
+    width: 80%;
+    padding-bottom: 56.25%;
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 13%;
+    width: 100%;
+    height: 100%;
+  }
+  
 
-footer a {
-    margin-right: 10px; /* Add space between social media icons */
-}
+  .img2 img {
+    width: 80%;
+    position: relative;
+    top: 0;
+    left: 12%;
+    
 
-.background img {
-    transition: filter 0.3s ease; /* Apply transition effect to the filter property */
-}
+  }
+  
+  
+  .pages {
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 0 auto;
+  }
+  
+  .pages p {
+    margin: 0 0 10px 0;
+    text-align: center;
+  }
+  
+  .pages ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .pages li {
+    padding: 5px 0;
+    margin-right: 10px;
+    display: inline-block; /* align list items horizontally */
+  }
+  
+  .pages a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .pages a:hover {
+    color: #bd5050;
+  }
+  
+  
+  iframe {
+    display: block; 
+    margin: 0 auto; 
+    width: 80%; 
+    max-width: 100%; 
+   
+  }
+  
+ 
+  .pages {
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 0 auto;
+  }
+  
+  .pages p {
+    margin: 0 0 10px 0;
+    text-align: center;
+  }
+  
+  .pages ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .pages li {
+    padding: 5px 0;
+    margin-right: 10px;
+    display: inline-block; 
+  }
+  
+  .pages a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .pages a:hover {
+    color: #bd5050;
+  }
+  
 
-.background img:hover {
+  
+  /* FOOTER */
+  footer {
+    background-color: #223a22; 
+    color: #ffffff; 
+    padding: 20px 0; 
+  }
+  
+  footer p {
+    margin-bottom: 10px; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  footer img {
+    width: 30px; 
+    margin: 0 5px; 
+    transition: filter 0.3s ease; 
+  }
+  
+  footer img:hover {
     filter: grayscale(100%); /* Convert the image to grayscale on hover */
-    transform: scale(1.1); 
-}
-
+    transform: scale(1.1);
+  }
+  
+  

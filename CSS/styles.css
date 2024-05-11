@@ -1,130 +1,119 @@
-/* Reset default margin and padding */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; /* Include padding and border in element's total width and height */
-}
-
-/* Body styles */
+/* styles.css */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f9f0; /* Light green background */
-}
-
-/* Header styles */
-header {
-    background-color: #3b6b3b; /* Dark green header background */
+    background-color: #f8f9fa; 
+  }
+  
+  /* HEADER */
+  header {
+    background-color: #223a22; /* Dark green header background */
     padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 10 px 10px 10px rgba(0, 0, 0, 0.1); /* Shadow with horizontal offset of 0px, vertical offset of 4px, blur radius of 8px, and color with opacity */
-}
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .navbar li {
+    margin-left: 50px;
+  }
+  
+  .navbar img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .btn-outline-white {
+    color: #fff;
+    border-color: #fff;
+  }
 
 
-nav {
-    flex-grow: 1; /* Take up available space */
-}
-
-nav ul {
-    list-style-type: none;
-    display: flex; /* Change to flex to align items */
-    justify-content: center; /* Center items horizontally */
-    align-items: center;
-}
-
-nav ul li {
-    margin-right: 50px;
-}
-
-nav ul li a {
-    color: #ffffff; /* White text color for links */
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-/* Search input styles */
-input[type="search"] {
-    padding: 5px;
-    border: none;
-    border-radius: 5px;
-}
-
-button {
-    margin-right: 30px;
-    width: 50px;
-    height: 30px;
-    padding: 5px 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: #a3d6a3; /* Light green button */
-    cursor: pointer;
-    transition: background-color 0.3s ease; /* Smooth transition for the background color */
-}
-
-button:hover {
-    background-color: #7bbf7b; /* Darker green on hover */
-}
-
-
-button img {
-    width: 20px;
-    height: 20px;
-}
-/* Content styles */
-
+  /* INTRO */
+  
+  .intro img{
+    width: 100%;
+    height: auto;
+    text-align: center; /* centers the text */
+   
+  }
+  
+  .intro {
+    position: relative;
+  
+  }
+  
   .intro img {
-    display: block;
     width: 100%;
     height: auto;
   }
   
-  .intro h1 {
-    color: #ffffff; /* Dark green text color */
+  .intro-content {
+    display: block; 
+    margin: 0 auto; 
+    width: 100%; 
+    max-width: 100%;
     position: absolute;
-    font-size: 50px;
     top: 50%;
-    left: 30%;
+    left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    color: #fff;
+    background-color: #ffffff36;
+    
+  }
+  
+  
+  .intro h1 {
+    font-size: 40px;
   }
   
   .intro p {
-    position: absolute;
-    bottom: 0%;
-    left: 30%;
-    transform: translate(-50%, -50%);
-    text-align: center;
     font-size: 20px;
-    color: #fffbfb; /* Dark grey text color */
-    width: 80%;
-    max-width: 600px; /* Adjust as needed */
-    padding: 20px;
+  }
+  .read-more {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
   
-}
-
-
-/* Footer styles */
-footer {
-    background-color: #3b6b3b; /* Dark green footer background */
-    padding: 20px;
-    color: #ffffff; /* White text color for footer */
-    text-align: center;
+  .read-more::after {
+    content: "\1F832";
+    margin-left: 10px;
+  }
   
-}
+  .read-more:hover {
+    background-color: #0046039a;
+    text-decoration: none; /* Remove underline on hover */
+    color: #fff;
+  }
+  
+  
+  
+  /* FOOTER */
 
-footer a {
-    margin-right: 10px; /* Add space between social media icons */
-}
-
-.background img {
+  footer {
+    background-color: #223a22; 
+    color: #ffffff; /* white text color */
+    padding: 20px 0; 
+  }
+  
+  footer p {
+    margin-bottom: 10px; /* adds space between social media icons and copyright text */
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  }
+  
+  footer img {
+    width: 30px; 
+    margin: 0 5px; 
     transition: filter 0.3s ease; /* Apply transition effect to the filter property */
-}
-
-.background img:hover {
+  }
+  
+  footer img:hover {
     filter: grayscale(100%); /* Convert the image to grayscale on hover */
-    transform: scale(1.1); 
-}
+    transform: scale(1.1);
+  }
