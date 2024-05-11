@@ -7,7 +7,6 @@ body {
   /* HEADER */
   header {
     background-color: #223a22; /* Dark green header background */
-    padding: 20px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1); 
   }
   
@@ -20,9 +19,20 @@ body {
     height: 80px;
   }
   
+  .form-control {
+  border-radius: 50px;
+    height: 30px;
+  }
+
+  .btn img {
+    width: 20px;
+    height: 20px;
+  }
+
   .btn-outline-white {
     color: #fff;
     border-color: #fff;
+    height: 30px;
   }
 
 
