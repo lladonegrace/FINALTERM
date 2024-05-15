@@ -56,7 +56,16 @@ section h1, section h2 {
 }
 
 section p {
+  left: 20px;
   margin-bottom: 20px; 
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+h2 {
+  margin-top: 20px;
+  font-weight: bold;
+  font-style: ;
 }
 
 /* EDITORIAL BOARD */
