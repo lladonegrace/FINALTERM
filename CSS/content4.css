@@ -43,7 +43,7 @@ header {
 
 /* CONTENT SECTION */
 section {
-  width: 80%;
+  width: 60%;
   margin: 40px auto;
   padding: 30px;
   background-color: #fff;
@@ -62,17 +62,20 @@ section p {
 
 .video-container {
   position: relative;
-  width: 80%;
-  padding-bottom: 56.25%;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+  overflow: hidden;
 }
 
 .video-container iframe {
   position: absolute;
   top: 0;
-  left: 13%;
+  left: 0;
   width: 100%;
   height: 100%;
 }
+
 
 .img2 img {
   width: 80%;

@@ -147,7 +147,9 @@ footer img:hover {
   transform: scale(1.1);
 }
 
+
 /* LINKS */
+/**
 .Links {
   text-align: center;
 }
@@ -157,13 +159,96 @@ footer img:hover {
   margin: 5px;
   padding: 10px;
   border: 2px solid #000;
-  border-radius: 20px; /* Adjust border-radius to control the roundness of the links */
+  border-radius: 20px; 
   text-decoration: none;
   color: #000;
-  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
-}
+  transition: background-color 0.3s ease; 
 
 .Links a:hover {
   background-color: #000;
-  color: #fff; /* Change text color on hover */
+  color: #fff; 
+}
+**/
+
+.card-container-wrapper {
+  display: flex;
+  overflow-x: auto;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.card-container {
+  flex: 0 0 auto;
+  width: 300px;
+  margin-right: 20px;
+}
+
+.card {
+  width: 100%;
+  height: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s;
+}
+
+.card-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 20px;
+  box-sizing: border-box;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  transform: translateX(100%);
+  transition: transform 0.3s, background 0.3s;
+}
+
+.card:hover .card-content {
+  transform: translateX(0);
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.card:hover {
+  transform: translateX(-20px);
+}
+
+.card-content h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.card-content p {
+  font-size: 14px;
+  margin: 10px 0;
+  line-height: 1.4;
+}
+
+/* Background images for each card */
+.card:nth-child(1) .card-content {
+  background-image: url('https://via.placeholder.com/300x400?text=Image+1');
+}
+
+.card:nth-child(2) .card-content {
+  background-image: url('https://via.placeholder.com/300x400?text=Image+2');
+}
+
+.card:nth-child(3) .card-content {
+  background-image: url('https://via.placeholder.com/300x400?text=Image+3');
+}
+
+.card:nth-child(4) .card-content {
+  background-image: url('https://via.placeholder.com/300x400?text=Image+4');
+}
+
+.card:nth-child(5) .card-content {
+  background-image: url('https://via.placeholder.com/300x400?text=Image+5');
 }
