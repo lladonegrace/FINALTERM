@@ -47,7 +47,7 @@ section {
   margin: 40px auto;
   padding: 30px;
   background-color: #fff;
-  padding-bottom: 10%;
+  padding-bottom: 5px;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: justify; 
@@ -55,10 +55,15 @@ section {
 
 section h1, section h2 {
   margin-bottom: 20px; 
+  padding-top: 20px;
+  margin-left: 10%;
 }
 
 section p {
   margin-bottom: 20px; 
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 20px;
 }
 
 .video-container {
