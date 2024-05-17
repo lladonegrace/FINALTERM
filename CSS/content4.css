@@ -43,10 +43,11 @@ header {
 
 /* CONTENT SECTION */
 section {
-  width: 60%;
+  width: 80%;
   margin: 40px auto;
   padding: 30px;
   background-color: #fff;
+  padding-bottom: 10%;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: justify; 
@@ -70,10 +71,10 @@ section p {
 
 .video-container iframe {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  padding-top: 5%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
 }
 
 

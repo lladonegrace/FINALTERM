@@ -48,6 +48,7 @@ section {
   width: 80%;
   margin: 40px auto;
   padding: 30px;
+  padding-bottom: 10%;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -55,11 +56,22 @@ section {
 }
 
 section h1, section h2 {
+  padding-top: 20px;
+  margin-left: 10%;
   margin-bottom: 20px; 
 }
 
 section p {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 20px;
   margin-bottom: 20px; 
+}
+section img{
+  width: 50%;
+  height: 50%;
+  margin-left: 25%;
+  padding-bottom: 20px;
 }
 
 .video-container {
