@@ -1,13 +1,14 @@
 /* General Styles */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f8f9fa; 
+  background-color: #f8f9fa;
+  line-height: 1.6;
 }
 
 /* HEADER */
 header {
-  background-color: #223a22; 
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1); 
+  background-color: #223a22;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
 }
 
 .navbar li {

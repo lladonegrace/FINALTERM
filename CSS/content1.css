@@ -53,11 +53,17 @@ section {
 }
 
 section h1, section h2 {
-  margin-bottom: 20px; 
+  padding-top: 20px;
+  margin-left: 10%;
+  margin-bottom: 20px;
 }
 
 section p {
+  margin-left: 10%;
+  margin-right: 10%;
   margin-bottom: 20px; 
+  margin-top: 20px;
+  font-size: 20px;
 }
 
 .video-container {
