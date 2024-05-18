@@ -52,7 +52,7 @@ section {
   text-align: justify; 
 }
 
-section h1, section h2 {
+section h2, section h4 {
   margin-bottom: 20px; 
 }
 
@@ -66,7 +66,6 @@ section p {
 h2 {
   margin-top: 20px;
   font-weight: bold;
-  font-style: ;
 }
 
 /* EDITORIAL BOARD */
