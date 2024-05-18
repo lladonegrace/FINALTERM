@@ -52,15 +52,23 @@ section {
   text-align: justify; 
 }
 
-section h2, section h4 {
-  margin-bottom: 20px; 
+section h2 {
+  padding-top: 20px;
+  margin-left: 10%;
+  margin-bottom: 20px;
+}
+
+section h4 {
+  padding-top: 20px;
+  margin-left: 10%;
+  margin-bottom: 20px;
 }
 
 section p {
-  left: 20px;
-  margin-bottom: 20px; 
-  margin-top: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
   font-size: 20px;
+  margin-bottom: 20px;
 }
 
 h2 {
@@ -68,6 +76,12 @@ h2 {
   font-weight: bold;
 }
 
+section img {
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 700px;
+  width: 1167px;
+}
 /* EDITORIAL BOARD */
 h1 {
   text-align: center;
