@@ -66,6 +66,14 @@ section p {
   font-size: 20px;
 }
 
+section video {
+  height: 90%;
+  width: 80%;
+  margin-left: 9.9%;
+  margin-right: 6%;
+  max-width: 100%;
+}
+
 .video-container {
   position: relative;
   width: 80%;
