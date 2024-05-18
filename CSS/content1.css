@@ -36,7 +36,7 @@ header {
 }
 
 .btn-outline-white {
-  color: #fff;
+  color: hsl(0, 0%, 100%);
   border-color: #fff;
   height: 30px;
 }
@@ -64,6 +64,14 @@ section p {
   margin-bottom: 20px; 
   margin-top: 20px;
   font-size: 20px;
+}
+
+section video {
+  height: 90%;
+  width: 80%;
+  margin-left: 9.9%;
+  margin-right: 6%;
+  max-width: 100%;
 }
 
 .video-container {
