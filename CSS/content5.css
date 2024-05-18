@@ -68,10 +68,10 @@ section p {
 
 /* PAGINATION */
 .pages {
-  background-color: #f9f9f9;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   
   padding: 20px;
   margin: 0 auto;
+  width: fit-content; /* Ensure the container wraps around the content */
 }
 
 .pages p {
@@ -82,22 +82,36 @@ section p {
 .pages ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
   text-align: center;
 }
 
 .pages li {
-  padding: 5px 0;
-  margin-right: 10px;
-  display: inline-block; 
+  display: inline-block; /* Align list items horizontally */
+  margin-right: 10px; /* Space between boxes */
 }
 
 .pages a {
-  color: #333;
-  text-decoration: none;
+  display: block; /* Make the anchor tag a block element */
+  padding: 10px 15px; /* Padding inside the box */
+  background-color: #fff; /* Background color of the box */
+  color: #333; /* Text color */
+  text-decoration: none; /* Remove underline from links */
+  border: 1px solid #ddd; /* Border around each box */
+  border-radius: 4px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for a slight 3D effect */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
 }
 
 .pages a:hover {
-  color: #bd5050;
+  background-color: #47b320; /* Background color on hover */
+  color: #fff; /* Text color on hover */
+}
+
+/* Optional: Add styles for the active page */
+.pages a.active {
+  background-color: #333; /* Background color for active page */
+  color: #fff; /* Text color for active page */
 }
 
 iframe {
