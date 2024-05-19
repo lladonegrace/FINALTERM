@@ -59,6 +59,7 @@ section h1, section h2 {
   padding-top: 20px;
   margin-left: 10%;
   margin-bottom: 20px; 
+  font-weight: bold;
 }
 
 section p {

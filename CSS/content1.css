@@ -50,12 +50,22 @@ section {
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: justify; 
+  font-family: 'Anton', sans-serif;
 }
-
-section h1, section h2 {
+section h2 {
   padding-top: 20px;
   margin-left: 10%;
+  margin-right: 5%;
   margin-bottom: 20px;
+  font-weight: bold;
+
+}
+
+section h4{
+  padding-top: 20px;
+  margin-left: 10%;
+  margin-right: 5%;
+ 
 }
 
 section p {
